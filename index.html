@@ -3,20 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ritualist - Habit Tracker</title>
+    <title>Ritualist - Build Lasting Rituals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #4a0e4e 0%, #1e1433 100%); }
+    </style>
 </head>
-<body style="font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 20px;">
-    <h1>Ritualist</h1>
-    <p><strong>Simple habit tracking app for Android.</strong></p>
-    <p>Build and maintain daily rituals that matter to you.</p>
-    
-    <h2>Privacy</h2>
-    <p>
-        <a href="privacy_policy.html">Read our Privacy Policy</a>
-    </p>
-    
-    <p style="margin-top: 40px; color: #666; font-size: 0.9em;">
-        Ritualist © 2026 GeroSoft Inc.
-    </p>
+<body class="bg-gray-950 text-white">
+
+    <!-- Hero -->
+    <div class="hero-bg py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <img src="title-banner.jpg" alt="Ritualist" class="mx-auto mb-6 h-24">
+            <h1 class="text-6xl font-bold mb-4 tracking-tight">Build Lasting Rituals</h1>
+            <p class="text-2xl text-gray-300 mb-10">Hourly & daily habits • One-tap check-ins • Streaks that last</p>
+            
+            <img src="hero.jpg" alt="Ritualist App" class="mx-auto rounded-3xl shadow-2xl border border-white/10 max-w-lg w-full">
+            
+            <a href="https://play.google.com/store/apps/details?id=com.ritualist.app" 
+               target="_blank"
+               class="mt-12 inline-block bg-orange-500 hover:bg-orange-600 px-10 py-4 rounded-2xl text-xl font-semibold transition">
+               Download on Google Play
+            </a>
+        </div>
+    </div>
+
+    <!-- Description -->
+    <div class="max-w-4xl mx-auto px-6 py-16">
+        <p class="text-xl leading-relaxed text-gray-300">
+            Unlock Your Full Potential with Ritualist. Building life-changing habits shouldn't feel like a chore. 
+            Ritualist is a minimalist, powerful, and <strong class="text-white">privacy-focused</strong> habit tracker designed 
+            to help you stay consistent.
+        </p>
+    </div>
+
+    <!-- Key Features -->
+    <div class="max-w-6xl mx-auto px-6 py-16 bg-gray-900">
+        <h2 class="text-4xl font-bold text-center mb-12">Why Ritualist?</h2>
+        <div class="grid md:grid-cols-2 gap-8 text-lg">
+            <div class="space-y-6">
+                <p><strong>🚀 Flexible Scheduling</strong> — Daily, every X days, or every X hours</p>
+                <p><strong>🕒 Hourly Habits</strong> — Perfect for hydration, medicine, posture checks</p>
+                <p><strong>🔔 Precise Reminders</strong> — Exact alarms even when phone is asleep</p>
+                <p><strong>📊 Beautiful Statistics</strong> — Progress rings, charts &amp; milestones</p>
+            </div>
+            <div class="space-y-6">
+                <p><strong>📅 Clean Calendar View</strong> — See your entire history at a glance</p>
+                <p><strong>📱 Home Screen Widgets</strong> — Check off habits instantly</p>
+                <p><strong>Go Pro (Lifetime)</strong> — Unlimited habits • Ad-free • Drive Backup • Themes</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screenshots -->
+    <div class="max-w-6xl mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold text-center mb-12">See Ritualist in Action</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <img src="create-ritual.jpg" alt="Create New Ritual" class="rounded-3xl shadow-xl border border-white/10">
+            <img src="calendar.jpg" alt="Calendar View" class="rounded-3xl shadow-xl border border-white/10">
+            <img src="stats.jpg" alt="Statistics & Streaks" class="rounded-3xl shadow-xl border border-white/10">
+        </div>
+    </div>
+
+    <!-- Privacy First -->
+    <div class="max-w-4xl mx-auto px-6 py-16 text-center bg-gray-900">
+        <h2 class="text-4xl font-bold mb-6">Privacy First</h2>
+        <p class="text-xl text-gray-300">
+            Your data never leaves your device.<br>
+            Everything is stored locally. No accounts. No tracking.<br>
+            <strong class="text-white">Google Drive Backup &amp; Restore</strong> is 100% optional and secure.
+        </p>
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center py-16">
+        <a href="https://play.google.com/store/apps/details?id=com.ritualist.app" 
+           target="_blank"
+           class="inline-block bg-white text-gray-950 hover:bg-gray-200 px-12 py-5 rounded-3xl text-2xl font-semibold transition">
+            Get Ritualist on Google Play →
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 text-center text-gray-400">
+        <p class="mb-4">Ritualist © 2026 GeroSoft Inc.</p>
+        <a href="privacy_policy.html" class="hover:text-white underline">Privacy Policy</a>
+    </footer>
+
 </body>
 </html>
